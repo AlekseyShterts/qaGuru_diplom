@@ -99,7 +99,7 @@ gradle allureServe
 </details>
 
 ### Сборка тестов в Jenkins
->#### <b><a target="_blank" href="https://jenkins.autotests.cloud/job/qaGuru_Diplom/">Web</a></b>
+>#### <b><a target="_blank" href="https://jenkins.autotests.cloud/job/AShterts%20web/">Web</a></b>
 > Для запуска сборки необходимо перейти в раздел `Build with Parameters`, если требуется выбрать нужные параметры
 > BROWSER или BROWSERSIZE и нажать кнопку `Build`
 
