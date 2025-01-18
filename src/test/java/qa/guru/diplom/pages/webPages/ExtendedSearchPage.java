@@ -5,11 +5,13 @@ import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 import qa.guru.diplom.enums.EducationEnum;
 import qa.guru.diplom.enums.SearchByEnum;
+import static qa.guru.diplom.helpers.Constants.searchRequestJava;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
+
 
 public class ExtendedSearchPage {
 
@@ -22,7 +24,7 @@ public class ExtendedSearchPage {
             $("[data-qa=\"control-vacancysearch__search_field-item control-vacancysearch__search_field-item_description\"]").parent();
     private final ElementsCollection regionsAcross = $$("[data-qa=\"chip-delete-action\"]");
     private final SelenideElement submitButton = $("[data-qa=\"advanced-search-submit-button\"]");
-    private final ElementsCollection keyWordsSuggestList = $$("[data-qa=\"cell-text\"]");
+    private final SelenideElement keyWordsSuggestList = $(".magritte-suggest-items-container-wrapper___T2L5U_6-4-6").$(byText(searchRequestJava));
     private final SelenideElement salaryInput = $("[data-qa=\"advanced-search-salary\"]");
 
     private final SelenideElement educationNotRequired =
@@ -41,7 +43,7 @@ public class ExtendedSearchPage {
 
     @Step("Выбор первого варианта из списка поисковых предложений")
     public ExtendedSearchPage clickFirstSuggestKeyWord() {
-        keyWordsSuggestList.first().click();
+        keyWordsSuggestList.click();
         return this;
     }
 
