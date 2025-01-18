@@ -1,16 +1,17 @@
 {
   "base": {
-    "project": "${JOB_BASE_NAME}",
-    "environment": "HH - web",
-    "comment": "@ArtemLepkin",
+    "logo": "",
+    "project": "${JOB_NAME}",
+    "environment": "HH - Web",
+    "comment": "@dtbrand",
     "reportLink": "${BUILD_URL}",
-    "language": "ru",
+    "language": "en",
     "allureFolder": "allure-report",
     "enableChart": true
   },
   "telegram": {
-    "token": "7336269682:AAFRxNHHy8AIJOH9GiypOUcYf7vp3qHMwhw",
-    "chat": "-4279674149",
+    "token": "7364228231:AAGkLzT_bdrlTg9e1rf970t6oiQVKM4HTP4",
+    "chat": "-1002222194653",
     "replyTo": ""
   }
 }
