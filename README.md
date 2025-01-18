@@ -28,11 +28,11 @@ Headhunter - сервис, который помогает найти работ
 ## Ссылки
 
 ### Jenkins: 
-- Джоба запуска [api автотестов]()
+- Джоба запуска [api автотестов](https://jenkins.autotests.cloud/job/AShterts%20api/)
 - Джоба запуска [web автотестов](https://jenkins.autotests.cloud/job/qaGuru_Diplom/)
 
 ### Test ops
-- Проект [api автотестов]()
+- Проект [api автотестов](https://allure.autotests.cloud/launch/43985)
 - Проект [web автотестов](https://allure.autotests.cloud/project/4574/dashboards)
 
 ## Использованные Технологии и инструменты
@@ -48,7 +48,6 @@ Headhunter - сервис, который помогает найти работ
 <a href="https://qameta.io/"><img alt="Allure TestOps" height="50" src="images/Allure_TO.svg" width="50"/></a>
 <a href="https://telegram.org/"><img alt="Telegram" height="50" src="images/Telegram.png" width="50"/></a>
 <a href="https://projectlombok.org/"><img alt="Lombok" height="50" src="images/lombok.png" width="50"/></a>
-<a href="https://www.atlassian.com/ru/software/jira"><img alt="Jira" height="50" src="images/jira.png" width="50"/></a>
 </div>
 
 ## Запуск тестов
@@ -64,7 +63,7 @@ gradle clean test
 ```
 gradle clean test -Dtag=all
 ```
--  WEB
+- WEB
 ```
 gradle clean test -Dtag=web
 ```
@@ -104,7 +103,7 @@ gradle allureServe
 > Для запуска сборки необходимо перейти в раздел `Build with Parameters`, если требуется выбрать нужные параметры
 > BROWSER или BROWSERSIZE и нажать кнопку `Build`
 
-> #### <b><a target="_blank" href="">Api</a></b>
+> #### <b><a target="_blank" href="https://jenkins.autotests.cloud/job/AShterts%20api/">Api</a></b>
 > У сборки нет параметров, достаточно нажать  `Build Now`.
 
 ## Интеграции
@@ -114,12 +113,6 @@ gradle allureServe
 
    <img src="images/allure_example1.png">
    <img src="images/allure_example2.png">
-
-### Интеграция с <b><a target="_blank" href="">Jira</a></b>
-
-#### Пример задачи в jira:
-
-
 
 ### Интеграция с <b><a target="_blank" href="https://allure.autotests.cloud/project/4574/jobs">Allure TestOps</a></b>
 #### Пример прохождения автотестов:
