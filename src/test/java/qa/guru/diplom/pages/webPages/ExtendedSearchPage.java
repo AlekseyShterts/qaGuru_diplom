@@ -88,7 +88,7 @@ public class ExtendedSearchPage {
     }
 
     @Step("Проверка, что специализации подгрузились")
-    public ExtendedSearchPage specializationIsLoad(){
+    public ExtendedSearchPage specializationIsLoad() {
         specialization.shouldBe(visible);
         return this;
     }

@@ -11,7 +11,8 @@ import static com.codeborne.selenide.Selenide.$;
 public class AreaSwitcherPage {
 
     private final SelenideElement areaSwitcherBlock = $("button[data-qa=\"mainmenu_areaSwitcher\"]");
-    private final SelenideElement areaSwitcherColumn= $(".area-switcher-column");
+    private final SelenideElement areaSwitcherColumn = $(".area-switcher-column");
+
     private SelenideElement getCityElement(String city) {
         return $(byTagAndText("a", city));
     }

@@ -21,16 +21,6 @@ public class APISpecification {
             .log(ALL)
             .build();
 
-    public static ResponseSpecification response201Spec = new ResponseSpecBuilder()
-            .expectStatusCode(201)
-            .log(ALL)
-            .build();
-
-    public static ResponseSpecification response204Spec = new ResponseSpecBuilder()
-            .expectStatusCode(204)
-            .log(ALL)
-            .build();
-
     public static ResponseSpecification response400Spec = new ResponseSpecBuilder()
             .expectStatusCode(400)
             .expectContentType(JSON)

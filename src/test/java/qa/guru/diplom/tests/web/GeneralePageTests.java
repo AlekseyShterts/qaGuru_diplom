@@ -1,6 +1,5 @@
 package qa.guru.diplom.tests.web;
 
-import io.qameta.allure.AllureId;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
@@ -19,6 +18,7 @@ import static qa.guru.diplom.helpers.Constants.searchRequestJava;
         @Tag("web"),
         @Tag("all")
 })
+@Owner("Штерц Алексей")
 @Epic("Веб тесты")
 @Feature("Главная страница")
 @DisplayName("Тесты на проверку элементов главной страницы")

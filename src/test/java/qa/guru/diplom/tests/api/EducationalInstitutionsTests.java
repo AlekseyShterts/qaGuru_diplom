@@ -2,6 +2,7 @@ package qa.guru.diplom.tests.api;
 
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
@@ -16,6 +17,7 @@ import static qa.guru.diplom.helpers.TestData.*;
         @Tag("api"),
         @Tag("all")
 })
+@Owner("Штерц Алексей")
 @Epic("Api автотесты")
 @Feature("Ручки образовательных учреждений")
 @DisplayName("Тесты на ручки образовательных учреждений")
