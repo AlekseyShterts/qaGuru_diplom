@@ -29,7 +29,7 @@ Headhunter - сервис, который помогает найти работ
 
 ### Jenkins: 
 - Джоба запуска [api автотестов](https://jenkins.autotests.cloud/job/AShterts%20api/)
-- Джоба запуска [web автотестов](https://jenkins.autotests.cloud/job/qaGuru_Diplom/)
+- Джоба запуска [web автотестов](https://jenkins.autotests.cloud/job/AShterts%20web/)
 
 ### Test ops
 - Проект [api автотестов](https://allure.autotests.cloud/launch/43985)
