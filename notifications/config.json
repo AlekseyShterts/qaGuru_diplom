@@ -1,0 +1,16 @@
+{
+  "base": {
+    "project": "${JOB_BASE_NAME}",
+    "environment": "HH - web",
+    "comment": "@ArtemLepkin",
+    "reportLink": "${BUILD_URL}",
+    "language": "ru",
+    "allureFolder": "allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "7336269682:AAFRxNHHy8AIJOH9GiypOUcYf7vp3qHMwhw",
+    "chat": "-4279674149",
+    "replyTo": ""
+  }
+}
