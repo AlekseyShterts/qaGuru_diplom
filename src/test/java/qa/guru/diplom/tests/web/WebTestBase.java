@@ -19,7 +19,7 @@ public class WebTestBase {
     @BeforeAll
     static void beforeAll() {
         Configuration.pageLoadStrategy = "eager";
-        Configuration.baseUrl = "https://spb.hh.ru/";
+        Configuration.baseUrl = "https://hh.ru/";
 
         var browser = ConfigDriver.getWebConfig().getBrowser();
         if (browser.contains(":")) {
