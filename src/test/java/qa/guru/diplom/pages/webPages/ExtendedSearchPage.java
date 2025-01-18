@@ -20,7 +20,7 @@ public class ExtendedSearchPage {
             $("[data-qa=\"control-vacancysearch__search_field-item control-vacancysearch__search_field-item_company_name\"]").parent();
     private final SelenideElement searchInDescriptionVacancyCheckbox =
             $("[data-qa=\"control-vacancysearch__search_field-item control-vacancysearch__search_field-item_description\"]").parent();
-    private final ElementsCollection regionsAcross = $$("[data-qa=\"selected-regions\"]");
+    private final ElementsCollection regionsAcross = $$("[data-qa=\"chip-delete-action\"]");
     private final SelenideElement submitButton = $("[data-qa=\"advanced-search-submit-button\"]");
     private final SelenideElement keyWordsSuggestList = $(".magritte-suggest-items-container-wrapper___T2L5U_6-4-6").$(byText("Java"));
     private final SelenideElement salaryInput = $("[data-qa=\"advanced-search-salary\"]");
