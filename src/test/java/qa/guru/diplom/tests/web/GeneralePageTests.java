@@ -1,5 +1,6 @@
 package qa.guru.diplom.tests.web;
 
+import io.qameta.allure.AllureId;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
@@ -32,6 +33,7 @@ public class GeneralePageTests extends WebTestBase {
 
     @Test
     @DisplayName("Проверка кнопок в хедере страницы")
+    @AllureId("35946")
     void checkMainHeaderBlockTest() {
         open("");
         generalPage
@@ -44,6 +46,7 @@ public class GeneralePageTests extends WebTestBase {
     @ParameterizedTest(name = "Смена города на {0}")
     @ValueSource(strings = {"Новосибирск", "Краснодар"})
     @DisplayName("Проверка смены города")
+    @AllureId("35948")
     void checkChangeCityTest(String city) {
         open("");
         generalPage
@@ -58,6 +61,7 @@ public class GeneralePageTests extends WebTestBase {
 
     @Test
     @DisplayName("Переход на страницу для работодателей")
+    @AllureId("35947")
     void checkMoveToEmployerPageByHeaderLinkTest() {
         open("");
         generalPage
@@ -70,6 +74,7 @@ public class GeneralePageTests extends WebTestBase {
 
     @Test
     @DisplayName("Проверка выполнения поискового запроса")
+    @AllureId("35945")
     void checkSearchResultsTest() {
         open("");
         generalPage
